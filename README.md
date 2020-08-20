@@ -1,4 +1,4 @@
-# github-user-search
+# vue-github-search
 
 > A Github Vue Project
 
