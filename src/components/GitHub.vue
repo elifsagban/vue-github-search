@@ -8,7 +8,7 @@
     <div class="results" v-if="results">
 
       <img v-bind:src="results.avatar_url"/>
-      <h2> {{ results.name }}</h2>
+      <h2> {{ results}}</h2>
       <div> {{ results.bio }}</div><br>
       <div> {{ results.location }}</div><br>
       <div v-if="results.followers">Followers: {{ results.followers }}</div>

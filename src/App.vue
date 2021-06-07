@@ -1,13 +1,19 @@
 <template>
   <div id="app">
     <img src="./assets/Octocat.png">
-    <router-view/>
+    <Github/>
   </div>
 </template>
 
 <script>
+
+import Github from "./views/GitHub.vue"
+
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    Github
+  }
 }
 </script>
 
